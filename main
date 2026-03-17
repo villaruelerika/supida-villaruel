@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Information</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#fff8f0;
+    margin:0;
+    padding:20px;
+}
+
+header{
+    background:#ff7043;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+h2{
+    color:#d84315;
+}
+
+.food-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:15px;
+}
+
+.food-card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    width:200px;
+    text-align:center;
+    padding:10px;
+}
+
+.food-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+table{
+    border-collapse:collapse;
+    width:100%;
+    margin-top:20px;
+}
+
+table, th, td{
+    border:1px solid #999;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    margin-top:20px;
+    color:gray;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Delicious Foods</h1>
+<p>Explore some popular foods from around the world</p>
+</header>
+
+<section>
+<h2>Popular Foods</h2>
+
+<div class="food-container">
+
+<div class="food-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" alt="Pizza">
+<h3>Pizza</h3>
+<p>Famous Italian dish with cheese and toppings.</p>
+</div>
+
+<div class="food-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Hamburger_%28black_bg%29.jpg" alt="Burger">
+<h3>Burger</h3>
+<p>Popular fast food made with meat and buns.</p>
+</div>
+
+<div class="food-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg" alt="Sushi">
+<h3>Sushi</h3>
+<p>Traditional Japanese rice and seafood dish.</p>
+</div>
+
+<div class="food-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Greek_salad.jpg" alt="Salad">
+<h3>Salad</h3>
+<p>Healthy mix of vegetables and dressing.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Food Categories</h2>
+
+<table>
+<tr>
+<th>Category</th>
+<th>Example Food</th>
+<th>Origin</th>
+</tr>
+
+<tr>
+<td>Fast Food</td>
+<td>Burger</td>
+<td>USA</td>
+</tr>
+
+<tr>
+<td>Italian</td>
+<td>Pizza</td>
+<td>Italy</td>
+</tr>
+
+<tr>
+<td>Japanese</td>
+<td>Sushi</td>
+<td>Japan</td>
+</tr>
+
+<tr>
+<td>Healthy</td>
+<td>Salad</td>
+<td>Various</td>
+</tr>
+
+</table>
+</section>
+
+<footer>
+<p>© 2026 Food Guide</p>
+</footer>
+
+</body>
+</html>
